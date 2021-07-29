@@ -1,4 +1,4 @@
-from cowidev.grapher.csv.core import Grapheriser
+from cowidev.grapher.files import Grapheriser
 
 
 def run_grapheriser(input_path: str, output_path: str):

@@ -1,8 +1,9 @@
 import pandas as pd
 
+from vax.utils.utils import make_monotonic
+
 
 class Australia:
-
     def __init__(self, source_url: str, location: str, columns_rename: dict = None):
         """Constructor.
 
@@ -27,13 +28,16 @@ class Australia:
     def pipe_people_full_vaccinated(self, df: pd.DataFrame) -> pd.DataFrame:
         date_limit_low = "2021-03-15"
         date_limit_up = "2021-05-24"
-        df.loc[(date_limit_low <= df.date) & (df.date < date_limit_up), "people_fully_vaccinated"] = pd.NA
+        df.loc[
+            (date_limit_low <= df.date) & (df.date < date_limit_up),
+            "people_fully_vaccinated",
+        ] = pd.NA
         df.loc[df.date < date_limit_low, "people_fully_vaccinated"] = 0
         return df
 
     def pipe_people_vaccinated(self, df: pd.DataFrame) -> pd.DataFrame:
         df = df.assign(
-            people_vaccinated=df.total_vaccinations-df.people_fully_vaccinated,
+            people_vaccinated=df.total_vaccinations - df.people_fully_vaccinated,
         )
         return df
 
@@ -42,28 +46,23 @@ class Australia:
             if date >= "2021-03-08":
                 return "Oxford/AstraZeneca, Pfizer/BioNTech"
             return "Pfizer/BioNTech"
+
         return df.assign(vaccine=df.date.astype(str).apply(_enrich_vaccine))
 
     def pipe_metadata(self, df: pd.DataFrame) -> pd.DataFrame:
         return df.assign(
-            location="Australia",
-            source_url="https://covidlive.com.au/vaccinations"
+            location="Australia", source_url="https://covidlive.com.au/vaccinations"
         )
-
-    def pipe_exclude_rows(self, df: pd.DataFrame) -> pd.DataFrame:
-        # Wrong data on 2021-06-22 prevents the series from increasing monotonically
-        return df[df.date != "2021-06-22"]
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
         return (
-            df
-            .pipe(self.pipe_filter_rows)
+            df.pipe(self.pipe_filter_rows)
             .pipe(self.pipe_rename_columns)
             .pipe(self.pipe_people_full_vaccinated)
             .pipe(self.pipe_people_vaccinated)
             .pipe(self.pipe_vaccine)
             .pipe(self.pipe_metadata)
-            .pipe(self.pipe_exclude_rows)
+            .pipe(make_monotonic)
             .sort_values("date")
         )
 

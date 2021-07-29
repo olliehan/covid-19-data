@@ -2,126 +2,151 @@ location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_ful
 Uruguay,2021-02-27,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,372,372,0
 Uruguay,2021-02-28,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,373,373,0
 Uruguay,2021-03-01,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,18396,18396,0
-Uruguay,2021-03-02,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,33127,33127,0
-Uruguay,2021-03-03,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,54426,54426,0
-Uruguay,2021-03-04,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,63407,63407,0
-Uruguay,2021-03-05,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,72597,72597,0
-Uruguay,2021-03-06,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,72599,72599,0
-Uruguay,2021-03-07,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,72600,72600,0
-Uruguay,2021-03-08,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,100739,100739,0
-Uruguay,2021-03-09,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,122567,122567,0
-Uruguay,2021-03-10,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,147742,147742,0
-Uruguay,2021-03-11,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,170151,170151,0
-Uruguay,2021-03-12,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,192860,192860,0
-Uruguay,2021-03-13,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,203276,203276,0
-Uruguay,2021-03-14,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,203277,203277,0
-Uruguay,2021-03-15,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,214532,214532,0
-Uruguay,2021-03-16,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,221189,221189,0
-Uruguay,2021-03-17,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,229073,229073,0
-Uruguay,2021-03-18,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,265585,265585,0
-Uruguay,2021-03-19,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,301882,301882,0
-Uruguay,2021-03-20,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,314364,314364,0
-Uruguay,2021-03-21,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,314383,314383,0
-Uruguay,2021-03-22,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,353044,353044,0
-Uruguay,2021-03-23,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,389424,389424,0
-Uruguay,2021-03-24,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,424776,424776,0
-Uruguay,2021-03-25,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,468334,468334,0
-Uruguay,2021-03-26,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,509468,509468,0
-Uruguay,2021-03-27,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,522620,522620,0
-Uruguay,2021-03-28,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,522627,522627,0
-Uruguay,2021-03-29,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,576877,559640,17237
-Uruguay,2021-03-30,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,628923,597770,31153
-Uruguay,2021-03-31,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,686772,635309,51463
-Uruguay,2021-04-01,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,734786,674867,59919
-Uruguay,2021-04-02,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,783856,715258,68598
-Uruguay,2021-04-03,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,796197,727556,68641
-Uruguay,2021-04-04,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,796205,727563,68642
-Uruguay,2021-04-05,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,834492,738314,96178
-Uruguay,2021-04-06,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,878568,761189,117379
-Uruguay,2021-04-07,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,924675,782952,141723
-Uruguay,2021-04-08,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,973385,810422,162963
-Uruguay,2021-04-09,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1013122,822177,190945
-Uruguay,2021-04-10,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1040139,840067,200072
-Uruguay,2021-04-11,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1040503,840426,200077
-Uruguay,2021-04-12,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1093682,886241,207441
-Uruguay,2021-04-13,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1150889,933491,217398
-Uruguay,2021-04-14,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1208600,981352,227248
-Uruguay,2021-04-15,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1272195,1012198,259997
-Uruguay,2021-04-16,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1334901,1041755,293146
-Uruguay,2021-04-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1369828,1067213,302615
-Uruguay,2021-04-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1385450,1082808,302642
-Uruguay,2021-04-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1424269,1090697,333572
-Uruguay,2021-04-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1469957,1100789,369168
-Uruguay,2021-04-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1516415,1110136,406279
-Uruguay,2021-04-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1567632,1119163,448469
-Uruguay,2021-04-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1618748,1131165,487583
-Uruguay,2021-04-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1641065,1140756,500309
-Uruguay,2021-04-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1641579,1141249,500330
-Uruguay,2021-04-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1686750,1149937,536813
-Uruguay,2021-04-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1731726,1157807,573919
-Uruguay,2021-04-28,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1776001,1165518,610483
-Uruguay,2021-04-29,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1822109,1173140,648969
-Uruguay,2021-04-30,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1869879,1181096,688783
-Uruguay,2021-05-01,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1869928,1181116,688812
-Uruguay,2021-05-02,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1870102,1181277,688825
-Uruguay,2021-05-03,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1902698,1194584,708114
-Uruguay,2021-05-04,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1936666,1206686,729980
-Uruguay,2021-05-05,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1969071,1217237,751834
-Uruguay,2021-05-06,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2005635,1227287,778348
-Uruguay,2021-05-07,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2024709,1236596,788113
-Uruguay,2021-05-08,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2031819,1240309,791510
-Uruguay,2021-05-09,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2032166,1240322,791844
-Uruguay,2021-05-10,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2076326,1247794,828532
-Uruguay,2021-05-11,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2119337,1254199,865138
-Uruguay,2021-05-12,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2163744,1261326,902418
-Uruguay,2021-05-13,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2226335,1299209,927126
-Uruguay,2021-05-14,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2286705,1340364,946341
-Uruguay,2021-05-15,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2308128,1358691,949437
-Uruguay,2021-05-16,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2308559,1359097,949462
-Uruguay,2021-05-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2361850,1407410,954440
-Uruguay,2021-05-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2413721,1451933,961788
-Uruguay,2021-05-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2457764,1489507,968257
-Uruguay,2021-05-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2505541,1530844,974697
-Uruguay,2021-05-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2554973,1573734,981239
-Uruguay,2021-05-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2569643,1585949,983694
-Uruguay,2021-05-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2571112,1586972,984140
-Uruguay,2021-05-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2612613,1623937,988676
-Uruguay,2021-05-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2651518,1659151,992367
-Uruguay,2021-05-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2689946,1694364,995582
-Uruguay,2021-05-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2729448,1729843,999605
-Uruguay,2021-05-28,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2766576,1762127,1004449
-Uruguay,2021-05-29,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2791537,1773869,1017668
-Uruguay,2021-05-30,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2792915,1775114,1017801
-Uruguay,2021-05-31,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2839097,1810811,1028286
-Uruguay,2021-06-01,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2884942,1846128,1038814
-Uruguay,2021-06-02,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2929881,1880387,1049494
-Uruguay,2021-06-03,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2974315,1914430,1059885
-Uruguay,2021-06-04,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3018176,1948273,1069903
-Uruguay,2021-06-05,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3032786,1960237,1072549
-Uruguay,2021-06-06,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3033723,1961168,1072555
-Uruguay,2021-06-07,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3073954,1996598,1077356
-Uruguay,2021-06-08,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3111778,2030836,1080942
-Uruguay,2021-06-09,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3160342,2073194,1087148
-Uruguay,2021-06-10,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3204450,2086469,1117981
-Uruguay,2021-06-11,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3244544,2092685,1151859
-Uruguay,2021-06-12,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3267615,2096420,1171195
-Uruguay,2021-06-13,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3268822,2096907,1171915
-Uruguay,2021-06-14,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3325992,2110540,1215452
-Uruguay,2021-06-15,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3380293,2125320,1254973
-Uruguay,2021-06-16,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3433235,2140340,1292895
-Uruguay,2021-06-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3477355,2143480,1333875
-Uruguay,2021-06-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3524681,2156708,1367973
-Uruguay,2021-06-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3539098,2159764,1379334
-Uruguay,2021-06-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3540074,2159768,1380306
-Uruguay,2021-06-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3592336,2171794,1420542
-Uruguay,2021-06-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3638576,2181510,1457066
-Uruguay,2021-06-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3681191,2189823,1491368
-Uruguay,2021-06-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3723303,2199604,1523699
-Uruguay,2021-06-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3762288,2209793,1552495
-Uruguay,2021-06-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3775205,2210970,1564235
-Uruguay,2021-06-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3776412,2210976,1565436
-Uruguay,2021-06-28,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3830653,2229443,1601210
-Uruguay,2021-06-29,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3885118,2248661,1636457
-Uruguay,2021-06-30,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3937582,2267709,1669873
-Uruguay,2021-07-01,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3990685,2282921,1707764
-Uruguay,2021-07-02,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4041916,2293845,1748071
+Uruguay,2021-03-02,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,33128,33128,0
+Uruguay,2021-03-03,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,54429,54429,0
+Uruguay,2021-03-04,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,63410,63410,0
+Uruguay,2021-03-05,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,72600,72600,0
+Uruguay,2021-03-06,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,72602,72602,0
+Uruguay,2021-03-07,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,72604,72604,0
+Uruguay,2021-03-08,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,100743,100743,0
+Uruguay,2021-03-09,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,122572,122572,0
+Uruguay,2021-03-10,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,147747,147747,0
+Uruguay,2021-03-11,Sinovac,https://monitor.uruguaysevacuna.gub.uy/,170156,170156,0
+Uruguay,2021-03-12,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,192865,192865,0
+Uruguay,2021-03-13,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,203281,203281,0
+Uruguay,2021-03-14,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,203282,203282,0
+Uruguay,2021-03-15,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,214537,214537,0
+Uruguay,2021-03-16,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,221195,221195,0
+Uruguay,2021-03-17,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,229079,229079,0
+Uruguay,2021-03-18,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,265591,265591,0
+Uruguay,2021-03-19,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,301888,301888,0
+Uruguay,2021-03-20,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,314370,314370,0
+Uruguay,2021-03-21,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,314389,314389,0
+Uruguay,2021-03-22,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,353050,353050,0
+Uruguay,2021-03-23,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,389432,389432,0
+Uruguay,2021-03-24,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,424784,424784,0
+Uruguay,2021-03-25,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,468342,468342,0
+Uruguay,2021-03-26,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,509476,509476,0
+Uruguay,2021-03-27,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,522629,522629,0
+Uruguay,2021-03-28,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,522636,522636,0
+Uruguay,2021-03-29,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,576886,559649,17237
+Uruguay,2021-03-30,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,628932,597779,31153
+Uruguay,2021-03-31,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,686781,635318,51463
+Uruguay,2021-04-01,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,734796,674876,59920
+Uruguay,2021-04-02,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,783866,715267,68599
+Uruguay,2021-04-03,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,796207,727565,68642
+Uruguay,2021-04-04,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,796215,727572,68643
+Uruguay,2021-04-05,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,834503,738323,96180
+Uruguay,2021-04-06,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,878580,761198,117382
+Uruguay,2021-04-07,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,924687,782961,141726
+Uruguay,2021-04-08,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,973397,810431,162966
+Uruguay,2021-04-09,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1013134,822186,190948
+Uruguay,2021-04-10,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1040152,840076,200076
+Uruguay,2021-04-11,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1040517,840435,200082
+Uruguay,2021-04-12,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1093697,886250,207447
+Uruguay,2021-04-13,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1150904,933500,217404
+Uruguay,2021-04-14,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1208615,981361,227254
+Uruguay,2021-04-15,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1272212,1012208,260004
+Uruguay,2021-04-16,"Sinovac, Pfizer/BioNTech",https://monitor.uruguaysevacuna.gub.uy/,1334918,1041765,293153
+Uruguay,2021-04-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1369845,1067223,302622
+Uruguay,2021-04-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1385508,1082858,302650
+Uruguay,2021-04-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1424327,1090747,333580
+Uruguay,2021-04-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1470017,1100839,369178
+Uruguay,2021-04-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1516477,1110186,406291
+Uruguay,2021-04-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1567695,1119213,448482
+Uruguay,2021-04-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1618813,1131216,487597
+Uruguay,2021-04-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1641131,1140808,500323
+Uruguay,2021-04-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1641645,1141301,500344
+Uruguay,2021-04-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1686817,1149989,536828
+Uruguay,2021-04-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1731793,1157859,573934
+Uruguay,2021-04-28,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1776069,1165570,610499
+Uruguay,2021-04-29,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1822177,1173192,648985
+Uruguay,2021-04-30,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1869949,1181149,688800
+Uruguay,2021-05-01,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1869998,1181169,688829
+Uruguay,2021-05-02,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1870172,1181330,688842
+Uruguay,2021-05-03,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1902768,1194637,708131
+Uruguay,2021-05-04,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1936736,1206739,729997
+Uruguay,2021-05-05,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,1969141,1217290,751851
+Uruguay,2021-05-06,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2005705,1227340,778365
+Uruguay,2021-05-07,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2024779,1236649,788130
+Uruguay,2021-05-08,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2031889,1240362,791527
+Uruguay,2021-05-09,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2032236,1240375,791861
+Uruguay,2021-05-10,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2076396,1247847,828549
+Uruguay,2021-05-11,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2119407,1254252,865155
+Uruguay,2021-05-12,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2163815,1261379,902436
+Uruguay,2021-05-13,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2226408,1299263,927145
+Uruguay,2021-05-14,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2286780,1340418,946362
+Uruguay,2021-05-15,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2308209,1358751,949458
+Uruguay,2021-05-16,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2308706,1359223,949483
+Uruguay,2021-05-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2362013,1407551,954462
+Uruguay,2021-05-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2413885,1452075,961810
+Uruguay,2021-05-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2457928,1489649,968279
+Uruguay,2021-05-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2505708,1530987,974721
+Uruguay,2021-05-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2555142,1573879,981263
+Uruguay,2021-05-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2569812,1586094,983718
+Uruguay,2021-05-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2571282,1587118,984164
+Uruguay,2021-05-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2612784,1624084,988700
+Uruguay,2021-05-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2651690,1659299,992391
+Uruguay,2021-05-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2690119,1694513,995606
+Uruguay,2021-05-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2729625,1729995,999630
+Uruguay,2021-05-28,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2766756,1762281,1004475
+Uruguay,2021-05-29,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2791717,1774023,1017694
+Uruguay,2021-05-30,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2793097,1775270,1017827
+Uruguay,2021-05-31,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2839285,1810969,1028316
+Uruguay,2021-06-01,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2885133,1846287,1038846
+Uruguay,2021-06-02,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2930076,1880547,1049529
+Uruguay,2021-06-03,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,2974513,1914592,1059921
+Uruguay,2021-06-04,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3018378,1948438,1069940
+Uruguay,2021-06-05,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3033121,1960533,1072588
+Uruguay,2021-06-06,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3034064,1961470,1072594
+Uruguay,2021-06-07,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3074337,1996940,1077397
+Uruguay,2021-06-08,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3112165,2031180,1080985
+Uruguay,2021-06-09,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3160794,2073540,1087254
+Uruguay,2021-06-10,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3204906,2086815,1118091
+Uruguay,2021-06-11,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3245003,2093031,1151972
+Uruguay,2021-06-12,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3268076,2096768,1171308
+Uruguay,2021-06-13,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3269283,2097255,1172028
+Uruguay,2021-06-14,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3326536,2110888,1215648
+Uruguay,2021-06-15,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3381047,2125671,1255376
+Uruguay,2021-06-16,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3434021,2140695,1293326
+Uruguay,2021-06-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3478187,2143835,1334352
+Uruguay,2021-06-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3525535,2157064,1368471
+Uruguay,2021-06-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3539952,2160120,1379832
+Uruguay,2021-06-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3540930,2160124,1380806
+Uruguay,2021-06-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3593193,2172150,1421043
+Uruguay,2021-06-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3639434,2181866,1457568
+Uruguay,2021-06-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3682051,2190179,1491872
+Uruguay,2021-06-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3724164,2199961,1524203
+Uruguay,2021-06-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3763153,2210150,1553003
+Uruguay,2021-06-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3776070,2211327,1564743
+Uruguay,2021-06-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3777277,2211333,1565944
+Uruguay,2021-06-28,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3831526,2229805,1601721
+Uruguay,2021-06-29,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3885997,2249027,1636970
+Uruguay,2021-06-30,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3938487,2268082,1670405
+Uruguay,2021-07-01,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,3991597,2283294,1708303
+Uruguay,2021-07-02,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4044974,2295312,1749662
+Uruguay,2021-07-03,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4062773,2298399,1764374
+Uruguay,2021-07-04,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4063634,2298406,1765228
+Uruguay,2021-07-05,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4114031,2310781,1803250
+Uruguay,2021-07-06,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4162343,2322467,1839876
+Uruguay,2021-07-07,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4213003,2331844,1881159
+Uruguay,2021-07-08,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4242499,2343943,1898556
+Uruguay,2021-07-09,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4267995,2352683,1915312
+Uruguay,2021-07-10,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4273865,2354895,1918970
+Uruguay,2021-07-11,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4274165,2354902,1919263
+Uruguay,2021-07-12,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4325037,2383493,1941544
+Uruguay,2021-07-13,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4369365,2407813,1961552
+Uruguay,2021-07-14,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4412846,2430614,1982232
+Uruguay,2021-07-15,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4458467,2448862,2009605
+Uruguay,2021-07-16,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4506167,2462070,2044097
+Uruguay,2021-07-17,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4512809,2463876,2048933
+Uruguay,2021-07-18,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4512822,2463876,2048946
+Uruguay,2021-07-19,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4543251,2472928,2070323
+Uruguay,2021-07-20,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4568470,2482637,2085833
+Uruguay,2021-07-21,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4591816,2494829,2096987
+Uruguay,2021-07-22,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4618725,2508476,2110249
+Uruguay,2021-07-23,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4657819,2531760,2126059
+Uruguay,2021-07-24,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4662184,2534035,2128149
+Uruguay,2021-07-25,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4663148,2534973,2128175
+Uruguay,2021-07-26,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4694924,2545452,2149472
+Uruguay,2021-07-27,"Sinovac, Pfizer/BioNTech, Oxford/AstraZeneca",https://monitor.uruguaysevacuna.gub.uy/,4721176,2551554,2169622

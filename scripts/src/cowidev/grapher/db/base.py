@@ -11,7 +11,7 @@ class GrapherBaseUpdater:
 
     def __init__(self, dataset_name: str, source_name: str, zero_day: str,
                  input_csv_path: str = None, slack_notifications: bool = False, namespace: str = "owid",
-                 year_is_day: bool = True) -> None:
+                 year_is_day: bool = True, unit: str = '', unit_short: str = None) -> None:
         self.dataset_name = dataset_name
         self._input_csv_path = input_csv_path
         self.source_name = source_name
@@ -19,6 +19,8 @@ class GrapherBaseUpdater:
         self.slack_notifications = slack_notifications
         self.namespace = namespace
         self.year_is_day = year_is_day
+        self.unit = unit
+        self.unit_short = unit_short
 
     @property
     def project_dir(self):
@@ -53,7 +55,9 @@ class GrapherBaseUpdater:
                     'zeroDay': self.zero_day
                 },
                 source_name=self.source_name,
-                slack_notifications=self.slack_notifications
+                slack_notifications=self.slack_notifications,
+                unit=self.unit,
+                unit_short=self.unit_short,
             )
         except Exception as e:
             tb = traceback.format_exc()

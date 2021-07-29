@@ -4,7 +4,7 @@ VACCINES_WHO_MAPPING = {
     "Anhui ZL - Recombinant": "RBD-Dimer",
     "AstraZeneca - AZD1222": "Oxford/AstraZeneca",
     "AstraZeneca - Vaxzevria": "Oxford/AstraZeneca",
-    "Beijing CNBG - BBIBP-CorV": "BBIBP-CorV",
+    "Beijing CNBG - BBIBP-CorV": "Sinopharm/Beijing",
     "Beijing CNBG - Inactivated": "Sinopharm/Beijing",
     "Bharat - Covaxin": "Covaxin",
     "CanSino - Ad5-nCOV": "CanSino",

@@ -1,4 +1,4 @@
-from cowidev.grapher.csv.core import Grapheriser
+from cowidev.grapher.files import Grapheriser, Exploriser
 
 
 def run_grapheriser(input_path: str, output_path: str):
@@ -10,7 +10,10 @@ def run_grapheriser(input_path: str, output_path: str):
 
 
 def run_explorerizer(input_path: str, output_path: str):
-    raise NotImplementedError("Not yet implemented")
+    Exploriser(
+        pivot_column="variant",
+        pivot_values="perc_sequences",
+    ).run(input_path, output_path)
 
 
 def run_db_updater(input_path: str):

@@ -23,7 +23,8 @@ class GMobilityETL:
                 "transit_stations_percent_change_from_baseline",
                 "workplaces_percent_change_from_baseline",
                 "residential_percent_change_from_baseline"
-            ]
+            ],
+            low_memory=False,
         )
 
     def load(self, df: pd.DataFrame, output_path: str) -> None:

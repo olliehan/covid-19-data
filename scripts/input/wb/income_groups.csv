@@ -18,7 +18,7 @@ Bangladesh,BGD,Lower middle income,2020
 Barbados,BRB,High income,2020
 Belarus,BLR,Upper middle income,2020
 Belgium,BEL,High income,2020
-Belize,BLZ,Upper middle income,2020
+Belize,BLZ,Lower middle income,2020
 Benin,BEN,Lower middle income,2020
 Bermuda,BMU,High income,2020
 Bhutan,BTN,Lower middle income,2020
@@ -83,14 +83,14 @@ Guatemala,GTM,Upper middle income,2020
 Guinea,GIN,Low income,2020
 Guinea-Bissau,GNB,Low income,2020
 Guyana,GUY,Upper middle income,2020
-Haiti,HTI,Low income,2020
+Haiti,HTI,Lower middle income,2020
 Honduras,HND,Lower middle income,2020
 Hong Kong,HKG,High income,2020
 Hungary,HUN,High income,2020
 Iceland,ISL,High income,2020
 India,IND,Lower middle income,2020
-Indonesia,IDN,Upper middle income,2020
-Iran,IRN,Upper middle income,2020
+Indonesia,IDN,Lower middle income,2020
+Iran,IRN,Lower middle income,2020
 Iraq,IRQ,Upper middle income,2020
 Ireland,IRL,High income,2020
 Isle of Man,IMN,High income,2020
@@ -125,10 +125,10 @@ Mali,MLI,Low income,2020
 Malta,MLT,High income,2020
 Marshall Islands,MHL,Upper middle income,2020
 Mauritania,MRT,Lower middle income,2020
-Mauritius,MUS,High income,2020
+Mauritius,MUS,Upper middle income,2020
 Mexico,MEX,Upper middle income,2020
 Micronesia (country),FSM,Lower middle income,2020
-Moldova,MDA,Lower middle income,2020
+Moldova,MDA,Upper middle income,2020
 Monaco,MCO,High income,2020
 Mongolia,MNG,Lower middle income,2020
 Montenegro,MNE,Upper middle income,2020
@@ -150,7 +150,7 @@ Norway,NOR,High income,2020
 Oman,OMN,High income,2020
 Pakistan,PAK,Lower middle income,2020
 Palau,PLW,High income,2020
-Panama,PAN,High income,2020
+Panama,PAN,Upper middle income,2020
 Papua New Guinea,PNG,Lower middle income,2020
 Paraguay,PRY,Upper middle income,2020
 Peru,PER,Upper middle income,2020
@@ -159,10 +159,10 @@ Poland,POL,High income,2020
 Portugal,PRT,High income,2020
 Puerto Rico,PRI,High income,2020
 Qatar,QAT,High income,2020
-Romania,ROU,High income,2020
+Romania,ROU,Upper middle income,2020
 Russia,RUS,Upper middle income,2020
 Rwanda,RWA,Low income,2020
-Samoa,WSM,Upper middle income,2020
+Samoa,WSM,Lower middle income,2020
 San Marino,SMR,High income,2020
 Sao Tome and Principe,STP,Lower middle income,2020
 Saudi Arabia,SAU,High income,2020
@@ -190,7 +190,7 @@ Sweden,SWE,High income,2020
 Switzerland,CHE,High income,2020
 Syria,SYR,Low income,2020
 Taiwan,TWN,High income,2020
-Tajikistan,TJK,Low income,2020
+Tajikistan,TJK,Lower middle income,2020
 Tanzania,TZA,Lower middle income,2020
 Thailand,THA,Upper middle income,2020
 Timor,TLS,Lower middle income,2020

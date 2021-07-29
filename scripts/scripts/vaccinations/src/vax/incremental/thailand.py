@@ -7,29 +7,29 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from pdfreader import SimplePDFViewer
 
-from vax.utils.incremental import enrich_data, increment, clean_count, merge_with_current_data
+from vax.utils.incremental import (
+    enrich_data,
+    increment,
+    clean_count,
+    merge_with_current_data,
+)
 from vax.utils.utils import get_soup
 from vax.utils.dates import clean_date
 
 
 class Thailand:
-
     def __init__(self):
         self.location = "Thailand"
         self.source_url = "https://ddc.moph.go.th/dcd/pagecontent.php?page=643&dept=dcd"
-        self.regex = {
-            "total_vaccinations": r"ผู้ที่ได้รับวัคซีนสะสม .{1,100} ทั้งหมด[^\d]+([\d,]+) โดส",
-            "people_vaccinated": r"ผู้ได้รับวัคซีนเข็มที่ 1 .{1,3}นวน[^\d]+([\d,]+) ?ร.{1,3}ย",
-            "people_fully_vaccinated": (
-                r"นวนผู้ได้รับวัคซีนครบต.{1,2}มเกณฑ์ \(ได้รับวัคซีน 2 เข็ม\) .{1,3}นวน[^\d]+([\d,]+)"
-            ),
-            "date": r"\s?ข้อมูล ณ วันที่ (\d{1,2}) (.*) (\d{4})",
-        }
+        self.regex_date = r"\s?ข้อมูล ณ วันที่ (\d{1,2}) (.*) (\d{4})"
+        self.regex_vax = r"เข็มที่ 1 \(รำย\) เข็มที่ 2 \(รำย\) รวม \(โดส\) ([\d,]+) ([\d,]+) ([\d,]+)"
 
     def read(self, last_update: str) -> pd.DataFrame:
         yearly_report_page = get_soup(self.source_url)
         # Get Newest Month Report Page
-        monthly_report_link = yearly_report_page.find("div", class_="col-lg-12", id="content-detail").find("a")["href"]
+        monthly_report_link = yearly_report_page.find(
+            "div", class_="col-lg-12", id="content-detail"
+        ).find("a")["href"]
         monthly_report_page = get_soup(monthly_report_link)
         # Get links
         df = self._parse_data(monthly_report_page, last_update)
@@ -56,13 +56,9 @@ class Thailand:
         date_str = self._parse_date(text)
         if date_str < last_update:
             return None, True
-        data = {
-            "total_vaccinations": self._parse_metric(text, "total_vaccinations"),
-            "people_vaccinated": self._parse_metric(text, "people_vaccinated"),
-            "people_fully_vaccinated": self._parse_metric(text, "people_fully_vaccinated"),
-            "date": date_str,
-            "source_url": link.replace(" ", "%20"),
-        }
+        data = self._parse_metrics(text)
+        data["date"] = date_str
+        data["source_url"] = link.replace(" ", "%20")
         return data, False
 
     def _text_from_pdf(self, pdf_link: str):
@@ -79,30 +75,39 @@ class Thailand:
     def _substitute_special_chars(self, raw_text: str):
         """Correct Thai Special Character Error."""
         special_char_replace = {
-            '\uf701': u'\u0e34',
-            '\uf702': u'\u0e35',
-            '\uf703': u'\u0e36',
-            '\uf704': u'\u0e37',
-            '\uf705': u'\u0e48',
-            '\uf706': u'\u0e49',
-            '\uf70a': u'\u0e48',
-            '\uf70b': u'\u0e49',
-            '\uf70e': u'\u0e4c',
-            '\uf710': u'\u0e31',
-            '\uf712': u'\u0e47',
-            '\uf713': u'\u0e48',
-            '\uf714': u'\u0e49',
+            "\uf701": u"\u0e34",
+            "\uf702": u"\u0e35",
+            "\uf703": u"\u0e36",
+            "\uf704": u"\u0e37",
+            "\uf705": u"\u0e48",
+            "\uf706": u"\u0e49",
+            "\uf70a": u"\u0e48",
+            "\uf70b": u"\u0e49",
+            "\uf70e": u"\u0e4c",
+            "\uf710": u"\u0e31",
+            "\uf712": u"\u0e47",
+            "\uf713": u"\u0e48",
+            "\uf714": u"\u0e49",
         }
-        special_char_replace = dict((re.escape(k), v) for k, v in special_char_replace.items())
+        special_char_replace = dict(
+            (re.escape(k), v) for k, v in special_char_replace.items()
+        )
         pattern = re.compile("|".join(special_char_replace.keys()))
-        text = pattern.sub(lambda m: special_char_replace[re.escape(m.group(0))], raw_text)
+        text = pattern.sub(
+            lambda m: special_char_replace[re.escape(m.group(0))], raw_text
+        )
         return text
 
-    def _parse_metric(self, text: str, metric_name: str):
-        if metric_name not in self.regex:
-            raise ValueError(f"Metric {metric_name} not a valid metric!")
-        total_vaccinations = re.search(self.regex[metric_name], text).group(1)
-        return clean_count(total_vaccinations)
+    def _parse_metrics(self, text: str):
+        metrics = re.search(self.regex_vax, text).groups()
+        people_vaccinated = clean_count(metrics[0])
+        people_fully_vaccinated = clean_count(metrics[1])
+        total_vaccinations = clean_count(metrics[2])
+        return {
+            "total_vaccinations": total_vaccinations,
+            "people_vaccinated": people_vaccinated,
+            "people_fully_vaccinated": people_fully_vaccinated,
+        }
 
     def _parse_date(self, text: str):
         thai_date_replace = {
@@ -116,13 +121,14 @@ class Thailand:
             "มิถุนายน": 6,
             "มิถุนำยน": 6,
             "กรกฎาคม": 7,
+            "กรกฎำคม": 7,
             "สิงหาคม": 8,
             "กันยายน": 9,
             "ตุลาคม": 10,
             "พฤศจิกายน": 11,
             "ธันวาคม": 12,
         }
-        date_raw = re.search(self.regex["date"], text)
+        date_raw = re.search(self.regex_date, text)
         day = clean_count(date_raw.group(1))
         month = thai_date_replace[date_raw.group(2)]
         year = clean_count(date_raw.group(3)) - 543
@@ -135,11 +141,7 @@ class Thailand:
         return df.assign(vaccine="Oxford/AstraZeneca, Sinovac")
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
-        return (
-            df
-            .pipe(self.pipe_location)
-            .pipe(self.pipe_vaccine)
-        )
+        return df.pipe(self.pipe_location).pipe(self.pipe_vaccine)
 
     def to_csv(self, paths):
         output_file = paths.tmp_vax_out(self.location)

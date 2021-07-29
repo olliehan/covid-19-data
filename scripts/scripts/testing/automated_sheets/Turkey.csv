@@ -1,4 +1,6 @@
 Date,Cumulative total,Daily change in cumulative total,Country,Units,Source URL,Source label,Notes,Testing type
+2021-07-03,61455218.0,218924.0,Turkey,tests performed,https://covid19.saglik.gov.tr/TR-66935/genel-koronavirus-tablosu.html,Turkish Ministry of Health,,PCR only
+2021-07-02,61236294.0,223782.0,Turkey,tests performed,https://covid19.saglik.gov.tr/TR-66935/genel-koronavirus-tablosu.html,Turkish Ministry of Health,,PCR only
 2021-07-01,61012512.0,225537.0,Turkey,tests performed,https://covid19.saglik.gov.tr/TR-66935/genel-koronavirus-tablosu.html,Turkish Ministry of Health,,PCR only
 2021-06-30,60786975.0,228163.0,Turkey,tests performed,https://covid19.saglik.gov.tr/TR-66935/genel-koronavirus-tablosu.html,Turkish Ministry of Health,,PCR only
 2021-06-29,60558812.0,229846.0,Turkey,tests performed,https://covid19.saglik.gov.tr/TR-66935/genel-koronavirus-tablosu.html,Turkish Ministry of Health,,PCR only

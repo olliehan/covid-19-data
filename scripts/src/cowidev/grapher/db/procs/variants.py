@@ -9,4 +9,6 @@ class GrapherVariantsUpdater(GrapherBaseUpdater):
                 f"CoVariants.org and GISAID – Last updated {self.time_str} (London time)"
             ),
             zero_day="2020-01-21",
+            unit="%",
+            unit_short="%",
         )

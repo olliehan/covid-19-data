@@ -41,7 +41,8 @@ def chunk_df(df, n):
 tz_utc = tz_db = timezone.utc
 tz_local = datetime.now(tz_utc).astimezone().tzinfo
 
-def import_dataset(dataset_name, namespace, csv_path, default_variable_display, source_name, slack_notifications=True):
+def import_dataset(dataset_name, namespace, csv_path, default_variable_display, source_name, slack_notifications=True,
+                    unit='', unit_short=None):
     print(dataset_name.upper())
     with connection() as c:
         db = DBUtils(c)
@@ -137,8 +138,8 @@ def import_dataset(dataset_name, namespace, csv_path, default_variable_display, 
                 db_variable_id_by_name[name] = db.upsert_variable(
                     name=name,
                     code=None,
-                    unit='',
-                    short_unit=None,
+                    unit=unit,
+                    short_unit=unit_short,
                     source_id=db_source_id,
                     dataset_id=db_dataset_id,
                     display=default_variable_display)

@@ -1,23 +1,27 @@
 import os
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 import requests
 import pandas as pd
 
 from cowidev.utils.utils import get_project_dir
 
-
 class VariantsETL:
     def __init__(self) -> None:
         self.source_url = (
             "https://raw.githubusercontent.com/hodcroftlab/covariants/master/web/data/perCountryData.json"
+        )
+        self.source_url_date = (
+            "https://github.com/hodcroftlab/covariants/raw/master/web/data/update.json"
         )
         self.variants_details = {
             '20A.EU2': {'rename': 'B.1.160', 'who': False},
             '20A/S:439K': {'rename': 'B.1.258', 'who': False},
             '20A/S:98F': {'rename': 'B.1.221', 'who': False},
             '20B/S:1122L': {'rename': 'B.1.1.302', 'who': False},
+            '20A/S:126A': {'rename': 'B.1.620', 'who': False},
             '20B/S:626S': {'rename': 'B.1.1.277', 'who': False},
+            '20B/S:732A': {'rename': 'B.1.1.519', 'who': False},
             '20C/S:80Y': {'rename': 'B.1.367', 'who': False},
             '20E (EU1)': {'rename': 'B.1.177', 'who': False},
             '20H (Beta, V2)': {'rename': 'Beta', 'who': True},
@@ -28,6 +32,8 @@ class VariantsETL:
             '21C (Epsilon)': {'rename': 'Epsilon', 'who': True},
             '21D (Eta)': {'rename': 'Eta', 'who': True},
             '21F (Iota)': {'rename': 'Iota', 'who': True},
+            '21G (Lambda)': {'rename': 'Lambda', 'who': True},
+            '21H': {'rename': 'B.1.621', 'who': False},
             'S:677H.Robin1': {'rename': 'S:677H.Robin1', 'who': False},
             'S:677P.Pelican': {'rename': 'S:677P.Pelican', 'who': False}
         }
@@ -42,6 +48,7 @@ class VariantsETL:
         self.columns_out = [
             "location", "date", "variant", "num_sequences", "perc_sequences", "num_sequences_total"
         ]
+        self.num_sequences_total_threshold = 30
 
     @property
     def variants_mapping(self):
@@ -56,16 +63,28 @@ class VariantsETL:
         data = list(filter(lambda x: x["region"] == "World", data["regions"]))[0]["distributions"]
         return data
 
+    @property
+    def _parse_last_update_date(self):
+        field_name = "lastUpdated"
+        date_json = requests.get(self.source_url_date).json()
+        if field_name in date_json:
+            date_raw = date_json[field_name]
+            return datetime.fromisoformat(date_raw).date()
+        raise ValueError(f"{field_name} field not found!")
+
     def transform(self, data: dict) -> pd.DataFrame:
         df = (
             self.json_to_df(data)
+            .pipe(self.pipe_filter_by_num_sequences)
             .pipe(self.pipe_edit_columns)
             .pipe(self.pipe_date)
             .pipe(self.pipe_check_variants)
             .pipe(self.pipe_filter_locations)
             .pipe(self.pipe_variant_others)
             .pipe(self.pipe_variant_non_who)
+            .pipe(self.pipe_dtypes)
             .pipe(self.pipe_percent)
+            .pipe(self.pipe_correct_excess_percentage)
             .pipe(self.pipe_out)
         )
         return df
@@ -86,6 +105,9 @@ class VariantsETL:
         )
         return df
 
+    def pipe_filter_by_num_sequences(self, df: pd.DataFrame) -> pd.DataFrame:
+        return df[df.total_sequences >= self.num_sequences_total_threshold]
+
     def pipe_edit_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         # Modify/add columns
         df = df.assign(
@@ -98,8 +120,11 @@ class VariantsETL:
 
     def pipe_date(self, df: pd.DataFrame) -> pd.DataFrame:
         dt = pd.to_datetime(df.date, format="%Y-%m-%d")
+        dt = dt + timedelta(days=14)
+        last_update = self._parse_last_update_date
+        dt = dt.apply(lambda x: min(x.date(), last_update).strftime("%Y-%m-%d"))
         return df.assign(
-            date=dt + timedelta(days=14),
+            date=dt,
         )
 
     def pipe_check_variants(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -117,10 +142,23 @@ class VariantsETL:
 
     def pipe_variant_others(self, df: pd.DataFrame) -> pd.DataFrame:
         df_a = df[["date", "location", "num_sequences_total"]].drop_duplicates()
-        df_b = df.groupby(["date", "location"], as_index=False).agg({"num_sequences": sum}).rename(columns={"num_sequences": "all_seq"})
+        df_b = (
+            df
+            .groupby(
+                ["date", "location"],
+                as_index=False
+            )
+            .agg({"num_sequences": sum})
+            .rename(columns={"num_sequences": "all_seq"})
+        )
         df_c = df_a.merge(df_b, on=["date", "location"])
         df_c = df_c.assign(others=df_c["num_sequences_total"] - df_c["all_seq"])
-        df_c = df_c.melt(id_vars=["location", "date", "num_sequences_total"], value_vars="num_sequences_others", var_name="variant", value_name="num_sequences")
+        df_c = df_c.melt(
+            id_vars=["location", "date", "num_sequences_total"],
+            value_vars="num_sequences_others",
+            var_name="variant",
+            value_name="num_sequences"
+        )
         df = pd.concat([df, df_c])
         return df
 
@@ -134,13 +172,47 @@ class VariantsETL:
         df = pd.concat([df, x], ignore_index=True)
         return df
 
+    def pipe_dtypes(self, df: pd.DataFrame) -> pd.DataFrame:
+        df = df.astype({"num_sequences_total": "Int64", "num_sequences": "Int64"})
+        return df
+
     def pipe_percent(self, df: pd.DataFrame) -> pd.DataFrame:
         return df.assign(
-            perc_sequences=(100 * df["num_sequences"] / df["num_sequences_total"]).round(2)
+            # perc_sequences=(100 * df["num_sequences"] / df["num_sequences_total"]).round(2),
+            perc_sequences=((100*df["num_sequences"] / df["num_sequences_total"]).round(2))
         )
 
+    def pipe_correct_excess_percentage(self, df: pd.DataFrame) -> pd.DataFrame:
+        # 1) `non_who`
+        # Get excess
+        x = df[df.variant.isin(self.variants_who+["non_who"])]
+        x = x.groupby(["location", "date"], as_index=False).agg({"perc_sequences": sum})
+        x = x[abs(x["perc_sequences"]-100) != 0]
+        x["excess"] = x.perc_sequences-100
+        # Merge excess quantity with input df
+        df = df.merge(x[["location", "date", "excess"]], on=["location", "date"], how="outer")
+        df = df.assign(excess=df.excess.fillna(0))
+        # Correct
+        mask = df.variant.isin(["non_who"])
+        df.loc[mask, "perc_sequences"] = (df.loc[mask, "perc_sequences"] - df.loc[mask, "excess"]).round(4)
+        df = df.drop(columns="excess")
+        # 2) `others`
+        # Get excess
+        x = df[-df.variant.isin(["non_who"])]
+        x = x.groupby(["location", "date"], as_index=False).agg({"perc_sequences": sum})
+        x = x[abs(x["perc_sequences"]-100) != 0]
+        x["excess"] = x.perc_sequences-100
+        # Merge excess quantity with input df
+        df = df.merge(x[["location", "date", "excess"]], on=["location", "date"], how="outer")
+        df = df.assign(excess=df.excess.fillna(0))
+        # Correct
+        mask = df.variant.isin(["others"])
+        df.loc[mask, "perc_sequences"] = (df.loc[mask, "perc_sequences"] - df.loc[mask, "excess"]).round(4)
+        df = df.drop(columns="excess")
+        return df
+
     def pipe_out(self, df: pd.DataFrame) -> pd.DataFrame:
-        return df[self.columns_out].sort_values(["location", "date"])
+        return df[self.columns_out].sort_values(["location", "date"])  #  + ["perc_sequences_raw"]
 
     def run(self, output_path: str):
         data = self.extract()

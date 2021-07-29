@@ -2,9 +2,11 @@ import os
 import pytz
 import ntpath
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
 
 def get_project_dir(err: bool = False):
+    load_dotenv()
     project_dir = os.environ.get("OWID_COVID_PROJECT_DIR")
     if project_dir is None: # err and
         raise ValueError(

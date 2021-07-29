@@ -36,84 +36,110 @@ Japan,2021-04-06,Pfizer/BioNTech,https://www.mhlw.go.jp/stf/seisakunitsuite/buny
 Japan,2021-04-07,Pfizer/BioNTech,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/vaccine_sesshujisseki.html,1393108.0,1036429.0,356679.0
 Japan,2021-04-08,Pfizer/BioNTech,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/vaccine_sesshujisseki.html,1487606.0,1066385.0,421221.0
 Japan,2021-04-09,Pfizer/BioNTech,https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/vaccine_sesshujisseki.html,1592517.0,1101698.0,490819.0
-Japan,2021-04-12,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1693423.0,1132518.0,560905.0
-Japan,2021-04-13,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1750930.0,1149935.0,600995.0
-Japan,2021-04-14,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1805847.0,1163425.0,642422.0
-Japan,2021-04-15,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1865220.0,1186815.0,678405.0
-Japan,2021-04-16,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1942149.0,1223753.0,718396.0
-Japan,2021-04-17,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1948410.0,1230014.0,718396.0
-Japan,2021-04-18,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1955908.0,1237512.0,718396.0
-Japan,2021-04-19,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2096798.0,1324095.0,772703.0
-Japan,2021-04-20,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2256085.0,1455585.0,800500.0
-Japan,2021-04-21,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2447341.0,1620145.0,827196.0
-Japan,2021-04-22,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2634664.0,1785613.0,849051.0
-Japan,2021-04-23,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2843589.0,1964855.0,878734.0
-Japan,2021-04-24,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2865890.0,1987156.0,878734.0
-Japan,2021-04-25,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2885790.0,2007056.0,878734.0
-Japan,2021-04-26,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3188668.0,2268283.0,920385.0
-Japan,2021-04-27,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3444143.0,2492653.0,951490.0
-Japan,2021-04-28,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3735858.0,2740100.0,995758.0
-Japan,2021-04-29,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3750603.0,2754845.0,995758.0
-Japan,2021-04-30,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4065420.0,3022422.0,1042998.0
-Japan,2021-05-01,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4095053.0,3052055.0,1042998.0
-Japan,2021-05-02,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4117407.0,3074409.0,1042998.0
-Japan,2021-05-03,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4124485.0,3080701.0,1043784.0
-Japan,2021-05-04,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4132292.0,3087827.0,1044465.0
-Japan,2021-05-05,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4141950.0,3096601.0,1045349.0
-Japan,2021-05-06,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4516037.0,3402051.0,1113986.0
-Japan,2021-05-07,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4697865.0,3534554.0,1163311.0
-Japan,2021-05-08,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4756679.0,3587547.0,1169132.0
-Japan,2021-05-09,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4833079.0,3657124.0,1175955.0
-Japan,2021-05-10,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5162592.0,3901749.0,1260843.0
-Japan,2021-05-11,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5470092.0,4105069.0,1365023.0
-Japan,2021-05-12,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5825404.0,4331455.0,1493949.0
-Japan,2021-05-13,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6214040.0,4565743.0,1648297.0
-Japan,2021-05-14,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6597621.0,4782839.0,1814782.0
-Japan,2021-05-15,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6746470.0,4912202.0,1834268.0
-Japan,2021-05-16,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6946143.0,5094208.0,1851935.0
-Japan,2021-05-17,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,7521503.0,5423298.0,2098205.0
-Japan,2021-05-18,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,8045880.0,5751488.0,2294392.0
-Japan,2021-05-19,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,8639803.0,6125633.0,2514170.0
-Japan,2021-05-20,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,9143475.0,6503955.0,2639520.0
-Japan,2021-05-21,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,9679630.0,6860355.0,2819275.0
-Japan,2021-05-22,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,9979777.0,7131626.0,2848151.0
-Japan,2021-05-23,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,10316680.0,7446841.0,2869839.0
-Japan,2021-05-24,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,11075058.0,8003820.0,3071238.0
-Japan,2021-05-25,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,11706975.0,8575483.0,3131492.0
-Japan,2021-05-26,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,12400597.0,9210034.0,3190563.0
-Japan,2021-05-27,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,13103132.0,9817562.0,3285570.0
-Japan,2021-05-28,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,13797108.0,10402722.0,3394386.0
-Japan,2021-05-29,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,14299448.0,10856029.0,3443419.0
-Japan,2021-05-30,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,14810112.0,11306283.0,3503829.0
-Japan,2021-05-31,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,15671488.0,11946961.0,3724527.0
-Japan,2021-06-01,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,16511021.0,12599580.0,3911441.0
-Japan,2021-06-02,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,17399027.0,13279211.0,4119816.0
-Japan,2021-06-03,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,18275650.0,13952796.0,4322854.0
-Japan,2021-06-04,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,19128235.0,14611199.0,4517036.0
-Japan,2021-06-05,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,19823249.0,15190610.0,4632639.0
-Japan,2021-06-06,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,20536571.0,15730756.0,4805815.0
-Japan,2021-06-07,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,21544869.0,16440268.0,5104601.0
-Japan,2021-06-08,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,22557179.0,17163128.0,5394051.0
-Japan,2021-06-09,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,23610006.0,17866586.0,5743420.0
-Japan,2021-06-10,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,24631569.0,18542165.0,6089404.0
-Japan,2021-06-11,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,25627791.0,19217416.0,6410375.0
-Japan,2021-06-12,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,26483635.0,19823137.0,6660498.0
-Japan,2021-06-13,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,27339604.0,20380264.0,6959340.0
-Japan,2021-06-14,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,28445089.0,21000822.0,7444267.0
-Japan,2021-06-15,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,29537940.0,21606653.0,7931287.0
-Japan,2021-06-16,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,30670380.0,22198970.0,8471410.0
-Japan,2021-06-17,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,31807465.0,22805413.0,9002052.0
-Japan,2021-06-18,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,32882714.0,23382825.0,9499889.0
-Japan,2021-06-19,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,33851097.0,23963891.0,9887206.0
-Japan,2021-06-20,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,34831303.0,24543590.0,10287713.0
-Japan,2021-06-21,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,35984648.0,25147511.0,10837137.0
-Japan,2021-06-22,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,37117196.0,25730686.0,11386510.0
-Japan,2021-06-23,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,38287635.0,26324063.0,11963572.0
-Japan,2021-06-24,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,39430692.0,26889368.0,12541324.0
-Japan,2021-06-25,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,40587383.0,27465732.0,13121651.0
-Japan,2021-06-26,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,41599279.0,28009962.0,13589317.0
-Japan,2021-06-27,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,42611637.0,28588240.0,14023397.0
-Japan,2021-06-28,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,43667875.0,29093640.0,14574235.0
-Japan,2021-06-29,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,44675880.0,29562953.0,15112927.0
-Japan,2021-06-30,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,45612120.0,30005641.0,15606479.0
-Japan,2021-07-01,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,46248972.0,30249911.0,15999061.0
+Japan,2021-04-12,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1694067.0,1133162.0,560905.0
+Japan,2021-04-13,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1752173.0,1151178.0,600995.0
+Japan,2021-04-14,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1807998.0,1165576.0,642422.0
+Japan,2021-04-15,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1869029.0,1190624.0,678405.0
+Japan,2021-04-16,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1949261.0,1230865.0,718396.0
+Japan,2021-04-17,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1957234.0,1238838.0,718396.0
+Japan,2021-04-18,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,1966113.0,1247717.0,718396.0
+Japan,2021-04-19,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2117793.0,1345090.0,772703.0
+Japan,2021-04-20,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2294051.0,1493551.0,800500.0
+Japan,2021-04-21,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2506669.0,1679473.0,827196.0
+Japan,2021-04-22,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2715078.0,1866027.0,849051.0
+Japan,2021-04-23,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2947716.0,2068982.0,878734.0
+Japan,2021-04-24,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,2983798.0,2105064.0,878734.0
+Japan,2021-04-25,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3008000.0,2129266.0,878734.0
+Japan,2021-04-26,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3332025.0,2411640.0,920385.0
+Japan,2021-04-27,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3614693.0,2663203.0,951490.0
+Japan,2021-04-28,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3939767.0,2944009.0,995758.0
+Japan,2021-04-29,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,3959516.0,2963758.0,995758.0
+Japan,2021-04-30,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4301087.0,3258089.0,1042998.0
+Japan,2021-05-01,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4340804.0,3297806.0,1042998.0
+Japan,2021-05-02,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4365437.0,3322439.0,1042998.0
+Japan,2021-05-03,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4373363.0,3329545.0,1043818.0
+Japan,2021-05-04,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4382215.0,3337660.0,1044555.0
+Japan,2021-05-05,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4392484.0,3347059.0,1045425.0
+Japan,2021-05-06,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4775225.0,3659696.0,1115529.0
+Japan,2021-05-07,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,4967415.0,3800150.0,1167265.0
+Japan,2021-05-08,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5033501.0,3859601.0,1173900.0
+Japan,2021-05-09,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5114236.0,3932309.0,1181927.0
+Japan,2021-05-10,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5460185.0,4186876.0,1273309.0
+Japan,2021-05-11,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,5789089.0,4401205.0,1387884.0
+Japan,2021-05-12,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6168745.0,4638658.0,1530087.0
+Japan,2021-05-13,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6582578.0,4883869.0,1698709.0
+Japan,2021-05-14,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,6994350.0,5113749.0,1880601.0
+Japan,2021-05-15,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,7159562.0,5248800.0,1910762.0
+Japan,2021-05-16,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,7366461.0,5434219.0,1932242.0
+Japan,2021-05-17,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,7965641.0,5772878.0,2192763.0
+Japan,2021-05-18,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,8519284.0,6113088.0,2406196.0
+Japan,2021-05-19,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,9146122.0,6500306.0,2645816.0
+Japan,2021-05-20,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,9672523.0,6894431.0,2778092.0
+Japan,2021-05-21,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,10240647.0,7264622.0,2976025.0
+Japan,2021-05-22,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,10560571.0,7544588.0,3015983.0
+Japan,2021-05-23,Pfizer/BioNTech,https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,10907427.0,7867354.0,3040073.0
+Japan,2021-05-24,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,11683530.0,8440091.0,3243439.0
+Japan,2021-05-25,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,12337751.0,9032081.0,3305670.0
+Japan,2021-05-26,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,13052886.0,9686488.0,3366398.0
+Japan,2021-05-27,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,13781192.0,10312993.0,3468199.0
+Japan,2021-05-28,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,14503340.0,10918262.0,3585078.0
+Japan,2021-05-29,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,15025257.0,11384198.0,3641059.0
+Japan,2021-05-30,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,15546674.0,11841474.0,3705200.0
+Japan,2021-05-31,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,16433742.0,12498328.0,3935414.0
+Japan,2021-06-01,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,17329965.0,13195216.0,4134749.0
+Japan,2021-06-02,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,18273250.0,13917123.0,4356127.0
+Japan,2021-06-03,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,19201999.0,14630254.0,4571745.0
+Japan,2021-06-04,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,20110422.0,15331165.0,4779257.0
+Japan,2021-06-05,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,20840483.0,15938093.0,4902390.0
+Japan,2021-06-06,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,21574779.0,16494548.0,5080231.0
+Japan,2021-06-07,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,22643391.0,17249362.0,5394029.0
+Japan,2021-06-08,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,23727228.0,18024362.0,5702866.0
+Japan,2021-06-09,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,24851629.0,18778517.0,6073112.0
+Japan,2021-06-10,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,25944876.0,19503120.0,6441756.0
+Japan,2021-06-11,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,27021545.0,20235631.0,6785914.0
+Japan,2021-06-12,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,27932764.0,20879164.0,7053600.0
+Japan,2021-06-13,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,28833983.0,21466828.0,7367155.0
+Japan,2021-06-14,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,30033046.0,22141621.0,7891425.0
+Japan,2021-06-15,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,31239943.0,22813259.0,8426684.0
+Japan,2021-06-16,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,32484752.0,23469786.0,9014966.0
+Japan,2021-06-17,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,33737883.0,24141666.0,9596217.0
+Japan,2021-06-18,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,34938996.0,24789697.0,10149299.0
+Japan,2021-06-19,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,36009106.0,25428690.0,10580416.0
+Japan,2021-06-20,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,37080790.0,26067199.0,11013591.0
+Japan,2021-06-21,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,38393393.0,26765142.0,11628251.0
+Japan,2021-06-22,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,39721457.0,27456266.0,12265191.0
+Japan,2021-06-23,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,41085526.0,28151654.0,12933872.0
+Japan,2021-06-24,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,42435769.0,28826041.0,13609728.0
+Japan,2021-06-25,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,43783503.0,29491726.0,14291777.0
+Japan,2021-06-26,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,45026185.0,30157337.0,14868848.0
+Japan,2021-06-27,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,46257475.0,30855959.0,15401516.0
+Japan,2021-06-28,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,47616609.0,31512314.0,16104295.0
+Japan,2021-06-29,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,49004968.0,32166834.0,16838134.0
+Japan,2021-06-30,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,50388768.0,32830311.0,17558457.0
+Japan,2021-07-01,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,51539716.0,33295680.0,18244036.0
+Japan,2021-07-02,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,52629647.0,33694082.0,18935565.0
+Japan,2021-07-03,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,53922283.0,34389598.0,19532685.0
+Japan,2021-07-04,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,55156780.0,35083067.0,20073713.0
+Japan,2021-07-05,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,56548556.0,35830010.0,20718546.0
+Japan,2021-07-06,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,57969303.0,36598364.0,21370939.0
+Japan,2021-07-07,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,59381791.0,37385278.0,21996513.0
+Japan,2021-07-08,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,60781413.0,38158786.0,22622627.0
+Japan,2021-07-09,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,62158300.0,38916114.0,23242186.0
+Japan,2021-07-10,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,63559094.0,39706142.0,23852952.0
+Japan,2021-07-11,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,64782381.0,40306609.0,24475772.0
+Japan,2021-07-12,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,66084337.0,40954484.0,25129853.0
+Japan,2021-07-13,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,67383995.0,41615662.0,25768333.0
+Japan,2021-07-14,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,68674777.0,42263593.0,26411184.0
+Japan,2021-07-15,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,69923389.0,42895595.0,27027794.0
+Japan,2021-07-16,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,71147322.0,43531483.0,27615839.0
+Japan,2021-07-17,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,72393233.0,44166706.0,28226527.0
+Japan,2021-07-18,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,73532695.0,44659484.0,28873211.0
+Japan,2021-07-19,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,74569998.0,45057675.0,29512323.0
+Japan,2021-07-20,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,75698431.0,45599485.0,30098946.0
+Japan,2021-07-21,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,76759151.0,46059365.0,30699786.0
+Japan,2021-07-22,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,77237546.0,46267503.0,30970043.0
+Japan,2021-07-23,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,77578715.0,46418000.0,31160715.0
+Japan,2021-07-24,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,78514871.0,46722100.0,31792771.0
+Japan,2021-07-25,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,79361163.0,46989507.0,32371656.0
+Japan,2021-07-26,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,80268669.0,47308075.0,32960594.0
+Japan,2021-07-27,"Moderna, Pfizer/BioNTech",https://www.kantei.go.jp/jp/headline/kansensho/vaccine.html,81020134.0,47591234.0,33428900.0

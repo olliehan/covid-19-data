@@ -214,6 +214,7 @@ if [ $hour == 20 ] ; then
   echo "Generating CoVariants dataset..."
   python -m cowidev.variants etl
   python -m cowidev.variants grapher-file
+  python -m cowidev.variants explorer-file
   git add .
   git commit -m "data(variants): automated update"
   git push

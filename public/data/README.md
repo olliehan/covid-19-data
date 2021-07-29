@@ -1,5 +1,6 @@
 # Data on COVID-19 (coronavirus) by _Our World in Data_
 
+
 ### 🗂️ Download our complete COVID-19 dataset : [CSV](https://covid.ourworldindata.org/data/owid-covid-data.csv) | [XLSX](https://covid.ourworldindata.org/data/owid-covid-data.xlsx) | [JSON](https://covid.ourworldindata.org/data/owid-covid-data.json)
 
 Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by [_Our World in Data_](https://ourworldindata.org/coronavirus). We will update it daily throughout the duration of the COVID-19 pandemic. It includes the following data:
@@ -8,7 +9,7 @@ Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by
 |-----------------------------|-----------------------------------------------------------|---------|-----------|
 | Vaccinations                | Official data collated by the Our World in Data team      | Daily   | 209       |
 | Tests & positivity          | Official data collated by the Our World in Data team      | Weekly  | 129       |
-| Hospital & ICU              | Official data collated by the Our World in Data team      | Weekly  | 33        |
+| Hospital & ICU              | Official data collated by the Our World in Data team      | Weekly  | 34        |
 | Confirmed cases             | JHU CSSE COVID-19 Data                                    | Daily   | 191       |
 | Confirmed deaths            | JHU CSSE COVID-19 Data                                    | Daily   | 183       |
 | Reproduction rate           | Arroyo-Marioli F, Bullano F, Kucinskas S, Rondón-Moreno C | Daily   | 182       |
@@ -17,10 +18,11 @@ Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by
 
 A [specific section of this repository](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations) is also dedicated to **vaccinations**, with a lighter dataset containing only vaccination data.
 
+
 ## The data you find here and our data sources
 
 - **Confirmed cases and deaths:** our data comes from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) (JHU). We discuss how and when JHU collects and publishes this data [here](https://ourworldindata.org/coronavirus-source-data). The cases & deaths dataset is updated daily. *Note: the number of cases or deaths reported by any institution—including JHU, the WHO, the ECDC and others—on a given day does not necessarily represent the actual number on that date. This is because of the long reporting chain that exists between a new case/death and its inclusion in statistics. **This also means that negative values in cases and deaths can sometimes appear when a country corrects historical data, because it had previously overestimated the number of cases/deaths. Alternatively, large changes can sometimes (although rarely) be made to a country's entire time series if JHU decides (and has access to the necessary data) to correct values retrospectively.***
-- **Hospitalizations and intensive care unit (ICU) admissions:** our data comes from the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19) (ECDC) for a select number of European countries; the [government of the United Kingdom](https://coronavirus.data.gov.uk/details/healthcare); the [Department of Health & Human Services](https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries) for the United States; the [COVID-19 Tracker](https://covid19tracker.ca/) for Canada. Unfortunately, we are unable to provide data on hospitalizations for other countries: there is currently no global, aggregated database on COVID-19 hospitalization, and our team at _Our World in Data_ does not have the capacity to build such a dataset.
+- **Hospitalizations and intensive care unit (ICU) admissions:** our data comes from the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19) (ECDC) for a select number of European countries; and government sources for the [United Kingdom](https://coronavirus.data.gov.uk/details/healthcare), the [United States](https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries), [Canada](https://covid19tracker.ca/), [Israel](https://datadashboard.health.gov.il/COVID-19/general), and [Algeria](https://github.com/yasserkaddour/covid19-icu-data-algeria). Unfortunately, we are unable to provide data on hospitalizations for other countries: there is currently no global, aggregated database on COVID-19 hospitalization, and our team at _Our World in Data_ does not have the capacity to build such a dataset.
 - **Testing for COVID-19:** this data is collected by the _Our World in Data_ team from official reports; you can find further details in our post on COVID-19 testing, including our [checklist of questions to understand testing data](https://ourworldindata.org/coronavirus-testing#our-checklist-for-covid-19-testing-data), information on [geographical and temporal coverage](https://ourworldindata.org/coronavirus-testing#which-countries-do-we-have-testing-data-for), and [detailed country-by-country source information](https://ourworldindata.org/coronavirus-testing#our-checklist-for-covid-19-testing-data). The testing dataset is updated around twice a week.
 - **Vaccinations against COVID-19:** this data is collected by the _Our World in Data_ team from official reports.
 - **Other variables:** this data is collected from a variety of sources (United Nations, World Bank, Global Burden of Disease, Blavatnik School of Government, etc.). More information is available in [our codebook](https://github.com/owid/covid-19-data/tree/master/public/data/owid-covid-codebook.csv).
@@ -50,6 +52,8 @@ If you are interested in the individual files that make up the complete dataset,
   - [`covid-testing-latest-data-source-details.csv`](https://github.com/owid/covid-19-data/blob/master/public/data/testing/covid-testing-latest-data-source-details.csv) includes, for each country in our testing dataset, the latest figures and a detailed description of how the country’s data is collected;
 - [`excess_mortality`](https://github.com/owid/covid-19-data/tree/master/public/data/excess_mortality): data on excess mortality during the pandemic, sourced from [the Human Mortality Database](https://www.mortality.org/) and [the UK Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/comparisonsofallcausemortalitybetweeneuropeancountriesandregions/januarytojune2020);
 - [`vaccinations`](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations): data from various official sources, related to COVID-19 vaccinations in each country;
+- [`variants`](https://github.com/owid/covid-19-data/tree/master/public/data/variants): data related to COVID-19
+  sequenced samples, classified into different variant groups;
 - [`who`](https://github.com/owid/covid-19-data/tree/master/public/data/who): data from the World Health Organization, related to confirmed cases and deaths—_we have stopped using and updating this data since 18 March 2020_;
 - [`ecdc`](https://github.com/owid/covid-19-data/tree/master/public/data/ecdc): data from the European Centre for Disease Prevention and Control, related to confirmed cases and deaths—_we have stopped using and updating this data since 30 November 2020_.
 - [`internal`](https://github.com/owid/covid-19-data/tree/master/public/data/internal): data extracts intended for internal use at _Our World in Data_. They may change or be deleted without notice so we discourage using them.
@@ -82,9 +86,11 @@ If you are interested in the individual files that make up the complete dataset,
 - On 19 December 2020, we added data on hospitalizations and intensive care unit (ICU) admissions for Canada, sourced from the [COVID-19 Tracker](https://covid19tracker.ca/).
 - On 6 January 2021, we added two variables for daily vaccinations to our complete dataset.
 - On 7 January 2021, we replaced the United Kingdom's hospital and ICU data previously gathered by the European CDC with [the official data published by the British government](https://coronavirus.data.gov.uk/details/healthcare).
-- On 26 January 2021, we added 4 variables on people vaccinated & people fully vaccinated to our complete dataset.
+- On 26 January 2021, we added 4 variables on people vaccinated and people fully vaccinated to our complete dataset.
 - On 4 February 2021, we added rows for Africa, Asia, Europe, European Union, North America, Oceania, and South America to our complete dataset. The `iso_code` column for these rows starts with `OWID_`.
 - On 5 March 2021, due to [the COVID Tracking Project's announcement](https://covidtracking.com/analysis-updates/covid-tracking-project-end-march-7) that their data collection effort would stop in March 2021, we transitioned to the [Department of Health & Human Services](https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries) as our source for data on hospitalizations and ICU admissions in the United States.
+- On 1 July 2021, we added a [dataset on SARS-CoV-2 variants](variants/covid-variants.csv) based on data made available by [CoVariants.org](https://covariants.org/).
+- On 15 July 2021, we added data on intensive care unit (ICU) patients for Algeria, sourced from the [Ministry of Health](https://github.com/yasserkaddour/covid19-icu-data-algeria).
 
 
 ## Data alterations

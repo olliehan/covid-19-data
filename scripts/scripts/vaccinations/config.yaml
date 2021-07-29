@@ -7,17 +7,15 @@ pipeline:
     countries:
     njobs: -2
     skip_countries:
+      - Gabon
       - North Macedonia
+      - Northern Cyprus
       - Philippines
       - South Africa
-      - Gabon
   process-data:
     skip_complete:
       - Pitcairn
     skip_monotonic_check:
-      Northern Ireland:
-        - date: 2021-04-29
-          metrics: people_vaccinated
     skip_anomaly_check:
       Australia:
         - date: 2021-05-24
